@@ -4,19 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:padding="10dp"
-    android:background="#858585"
+    android:background="#49C64E"
     android:layout_margin="10dp"
     app:layout_constraintCircleRadius="10dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="24dp"
-        android:text="Text here"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Snackbars inform users of a process that an app has performed or will perform. They appear temporarily, towards the bottom of the screen."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
